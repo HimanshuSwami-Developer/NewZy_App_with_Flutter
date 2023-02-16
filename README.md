@@ -1,6 +1,12 @@
 # newsapp
 
-A new Flutter project.
+## Flutter Project
+
+#Output
+
+![Screenshot from 2023-02-16 20-52-48](https://user-images.githubusercontent.com/96292598/219414507-024d695f-7f0c-4f29-a534-f3c06109a133.png)
+
+
 
 ## Getting Started
 
