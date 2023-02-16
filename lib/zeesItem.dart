@@ -33,31 +33,32 @@ class NewsItem extends StatelessWidget {
                   ? Container(
                       child: Align(
                         alignment: Alignment.topRight,
-                        child: FlatButton(
-                          onPressed: () {},
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(300),
                           color: Colors.red.shade800,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(360)),
-                          child: Text(source),
-                          textColor: Colors.white70,
+                          
+                          ),
+                          child: Text(source,style: TextStyle(color: Colors.white),),
                         ),
                       ),
                       height: MediaQuery.of(context).size.height * 0.26,
                       width: MediaQuery.of(context).size.width * 1,
-                      alignment: Alignment.center,
+                      
                       decoration: BoxDecoration(
                         color: Colors.blueGrey.shade200,
                       ))
                   : Container(
                       child: Align(
                         alignment: Alignment.topRight,
-                        child: FlatButton(
-                          onPressed: () {},
+                        child: Container(
+                          decoration: BoxDecoration(
                           color: Colors.red.shade800,
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(360)),
-                          child: Text(source),
-                          textColor: Colors.white70,
+                
+                            borderRadius: BorderRadius.circular(300),
+                          ),
+                          child: Text(source,style: TextStyle(color: Colors.white),),
+                          
                         ),
                       ),
                       height: MediaQuery.of(context).size.height * 0.24, //0.36
@@ -88,10 +89,11 @@ class NewsItem extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(0, 0, 12, 0),
                 child: Align(
                   alignment: Alignment.bottomRight,
-                  child: RaisedButton.icon(
-                    color: Colors.blue.shade800,
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10)),
+                   
+                  child: ElevatedButton.icon(
+                      style: ElevatedButton.styleFrom(
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10))
+                      ),
                     onPressed: () async {
                       print(urls);
                       var url = urls;
@@ -102,8 +104,8 @@ class NewsItem extends StatelessWidget {
                             forceWebView: true);
                       }
                     },
-                    label: const Text("More"),
-                    textColor: Colors.white,
+                    label: const Text("More",style: TextStyle(color: Colors.white),),
+                    
                     icon: const Icon(Icons.arrow_circle_right_outlined),
                   ),
                 ),
