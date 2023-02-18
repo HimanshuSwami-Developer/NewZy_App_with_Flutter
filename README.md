@@ -20,7 +20,6 @@ divide into seven catagories
 
 
 ![Screenshot from 2023-02-16 21-25-56](https://user-images.githubusercontent.com/96292598/219419453-007cec4e-3e97-4c67-91b0-dd78d707b8e7.png)
-
 ![Screenshot from 2023-02-16 20-52-48](https://user-images.githubusercontent.com/96292598/219414507-024d695f-7f0c-4f29-a534-f3c06109a133.png)
 
 
