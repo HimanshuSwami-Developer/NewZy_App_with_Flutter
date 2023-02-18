@@ -23,10 +23,6 @@ divide into seven catagories
 ![Screenshot from 2023-02-16 20-52-48](https://user-images.githubusercontent.com/96292598/219414507-024d695f-7f0c-4f29-a534-f3c06109a133.png)
 
 
-![2](https://user-images.githubusercontent.com/96292598/219864211-5215be37-1a26-4321-b9d7-e1e94aa5cb3f.jpeg)
-
-![3](https://user-images.githubusercontent.com/96292598/219864228-f7aacdc1-1fdb-465e-9527-b8ac73f8861d.jpeg)
-![WhatsApp Image 2023-02-18 at 5 14 58 PM](https://user-images.githubusercontent.com/96292598/219864256-a1b31966-cc95-496a-bc35-a5d1ef617b88.jpeg)
 
 
 ## Getting Started
